@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/repo/ObjectLight/build/x64-debug/cmake_install.cmake",
+		"E:/repo/ObjectLight/build/x64-debug/ObjectLight/cmake_install.cmake",
+		"E:/repo/ObjectLight/build/x64-debug/OBLHost/cmake_install.cmake",
+		"E:/repo/ObjectLight/build/x64-debug/Module/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

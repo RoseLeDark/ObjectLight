@@ -1,0 +1,45 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "E:/repo/ObjectLight/build/x64-debug/ObjectLight",
+	"dir-cur-src" : "E:/repo/ObjectLight/ObjectLight",
+	"dir-top-bld" : "E:/repo/ObjectLight/build/x64-debug",
+	"dir-top-src" : "E:/repo/ObjectLight",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"E:\\repo\\ObjectLight\\ObjectLight\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "E:/repo/ObjectLight/build/x64-debug/ObjectLight/CMakeFiles/ObjectLight.dir",
+	"sources" : 
+	{
+		"ObjectLight/CMakeFiles/ObjectLight.dir/src/Object.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "E:/repo/ObjectLight/ObjectLight/src/Object.cpp"
+		},
+		"ObjectLight/CMakeFiles/ObjectLight.dir/src/ObjectFactory.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "E:/repo/ObjectLight/ObjectLight/src/ObjectFactory.cpp"
+		},
+		"ObjectLight/CMakeFiles/ObjectLight.dir/src/ObjectLight.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "E:/repo/ObjectLight/ObjectLight/src/ObjectLight.cpp"
+		},
+		"ObjectLight/CMakeFiles/ObjectLight.dir/src/uuid.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "E:/repo/ObjectLight/ObjectLight/src/uuid.cpp"
+		}
+	}
+}

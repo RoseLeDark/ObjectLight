@@ -1,0 +1,30 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "E:/repo/ObjectLight/build/x64-debug/OBLHost",
+	"dir-cur-src" : "E:/repo/ObjectLight/OBLHost",
+	"dir-top-bld" : "E:/repo/ObjectLight/build/x64-debug",
+	"dir-top-src" : "E:/repo/ObjectLight",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"E:\\repo\\ObjectLight\\OBLHost\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "E:/repo/ObjectLight/build/x64-debug/OBLHost/CMakeFiles/OBLHost.dir",
+	"sources" : 
+	{
+		"OBLHost/CMakeFiles/OBLHost.dir/src/OBLHost.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "E:/repo/ObjectLight/OBLHost/src/OBLHost.cpp"
+		}
+	}
+}

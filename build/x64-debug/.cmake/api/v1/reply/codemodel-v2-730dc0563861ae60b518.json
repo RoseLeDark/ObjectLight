@@ -1,0 +1,126 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.1"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "ObjectLight",
+					"jsonFile" : "directory-ObjectLight-Debug-6837b543879aaafe39cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ObjectLight",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "OBLHost",
+					"jsonFile" : "directory-OBLHost-Debug-fd769f9947a370a291b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "OBLHost",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Module",
+					"jsonFile" : "directory-Module-Debug-12878828b721bac4ab45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Module",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "ObjectLightProject",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "Module::@a67813fb0542b0b3e209",
+					"jsonFile" : "target-Module-Debug-77fc251a46ed0e9676de.json",
+					"name" : "Module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "OBLHost::@201096904e1e95d93c24",
+					"jsonFile" : "target-OBLHost-Debug-432866c47f3bb0750826.json",
+					"name" : "OBLHost",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ObjectLight::@cbcf518b8c806b2a2736",
+					"jsonFile" : "target-ObjectLight-Debug-0874db021eec1900c1bb.json",
+					"name" : "ObjectLight",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/repo/ObjectLight/build/x64-debug",
+		"source" : "E:/repo/ObjectLight"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

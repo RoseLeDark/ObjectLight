@@ -1,0 +1,30 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "E:/repo/ObjectLight/build/x64-debug/Module",
+	"dir-cur-src" : "E:/repo/ObjectLight/Module",
+	"dir-top-bld" : "E:/repo/ObjectLight/build/x64-debug",
+	"dir-top-src" : "E:/repo/ObjectLight",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"E:\\repo\\ObjectLight\\ObjectLight\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "E:/repo/ObjectLight/build/x64-debug/Module/CMakeFiles/Module.dir",
+	"sources" : 
+	{
+		"Module/CMakeFiles/Module.dir/TestModule.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "E:/repo/ObjectLight/Module/TestModule.cpp"
+		}
+	}
+}
