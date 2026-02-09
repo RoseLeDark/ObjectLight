@@ -1,5 +1,4 @@
-add_obl_module(Module
-    "include/Module/TestModule.h"
+add_obl_module(TestModule
     "TestModule.cpp"
 )
 

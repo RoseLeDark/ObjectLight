@@ -1,45 +1,25 @@
-#include <OBL/OBLight.h>
-#include "include/Module/TestModule.h"
+#include "ob_object_light.h"
+#include "TestModule.h"
 
-
-static bool MyObjectCreateInstance1(OB::Object* obj) {
-		obj = new MyModule(1);
-		return 1;
-}
-static bool MyObjectDestroyInstance1(OB::Object* obj) {
-	if (obj != NULL) {
-		if (obj->reference() == 0) {
-			delete obj;
-			obj = NULL;
-		}
-	}
-	return 0;
-}
 
 class MyModuleObjectEntry1 : public OB::ObjectFactoryEntry{
 public:
-	MyModuleObjectEntry1() : ObjectFactoryEntry(1) {
+	MyModuleObjectEntry1() : ObjectFactoryEntry(TestModuleOneUUID) {
 	
-		CreateInstance = MyObjectCreateInstance1;
-		DestroyInstance = MyObjectDestroyInstance1;
+		CreateInstance = TestModuleOne::CreateInstance;
+		DestroyInstance = TestModuleOne::DestroyInstance;
 	}
 };
-
-static int MyObjectCreateInstance2(OB::Object* obj) {
-	obj = new MyModule(2);
-	return 1;
-}
 
 class MyModuleObjectEntry2 : public OB::ObjectFactoryEntry {
 public:
-	MyModuleObjectEntry2() : ObjectFactoryEntry(2) {
-
-		CreateInstance = MyObjectCreateInstance2;
-		DestroyInstance = MyObjectDestroyInstance1;
+	MyModuleObjectEntry2() : ObjectFactoryEntry(TestModuleTwoUUID) {
+		CreateInstance = TestModuleTwo::CreateInstance;
+		DestroyInstance = TestModuleTwo::DestroyInstance;
 	}
 };
 
-extern "C" OB::ObjectFactory* OBLGetFactory(const OB::uuid& id) {
+extern "C" OB::ObjectFactory* OBLGetFactory(const OB::uuid_t& id) {
 	OB::ObjectFactory* factory = new OB::ObjectFactory();
 
 	factory->RegisterFactoryEntry(new MyModuleObjectEntry1());

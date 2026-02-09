@@ -1,0 +1,14 @@
+Name: "TestModule"
+module: "TestModule.dll"
+typeUUID: "019c3f3c-dfaa-7e98-818c-590db3522b5b"
+versions:
+  - subUUID: "019c3fad-27d9-7fb5-bdd5-a97c5b63833b"
+    version: "0.1.0"
+    changes:
+      - "Initial movement implementation"
+  - subUUID: "019c4053-66b9-7716-9ad6-7e5a77e15e26"
+    version: "0.2.0"
+    changes:
+      - "Improved physics"
+      - "Added timestamp smoothing"
+
